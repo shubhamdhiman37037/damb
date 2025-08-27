@@ -14,7 +14,7 @@ module.exports = (Sequelize, sequelize, DataTypes) => {
         onUpdate: "CASCADE",
       },
       dateTitle: {
-        type: DataTypes.STRING(255),
+        type: DataTypes.STRING(155),
         defaultValue: null,
       },
       dateDescription: {
