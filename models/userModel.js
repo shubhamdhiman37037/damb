@@ -50,7 +50,7 @@ module.exports = (Sequelize, sequelize, DataTypes) => {
         defaultValue: null,
       },
       token: {
-        type: DataTypes.STRING(500),
+        type: DataTypes.STRING(200),
         defaultValue: null,
       },
       myBirthday: {
